@@ -44,7 +44,7 @@
                 hr
                 .row
                   .col-lg-4.d-flex.align-items-end
-                    img.box-result__avatar.img-fluid(src="./assets/img/person.png")
+                    img.box-result__avatar.img-fluid(src="https://juanlopezdev.github.io/calculadora-coronavirus/dist/person.png")
                   .col-lg-8
                     p Factor problemático: <b>{{ problemFactor }}</b>
                     p.text-left
