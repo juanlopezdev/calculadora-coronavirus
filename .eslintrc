@@ -1,0 +1,9 @@
+{
+  "extends": ["plugin:vue/recommended"],
+
+  "rules": {
+    "no-new": 0
+  },
+
+  "plugins": ["import", "html", "vue"]
+}
