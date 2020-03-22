@@ -46,7 +46,7 @@
             h2.font-weight-bold.text-center.mb-4 Mañana podriamos tener...
             .row.justify-content-center.mb-4
               .col-12.col-lg-6
-                p.text-center Si tomamos el factor problemático de tu cálculo...
+                p.text-center Si tomamos el factor problemático de <b>tu cálculo</b>...
                 .box-result.mx-auto.mb-5
                   .box-result__total.mb-2 <b>{{ totalTomorrow }}</b> <br/>
                   .box-result__label Personas posiblemente contagiadas por <br/> COVID-19
@@ -72,7 +72,7 @@
                 p 
                   | Si te preguntas <b>¿que es?</b>, podríamos decir que es aquel <b>factor</b> que guarda relación con las variables <b>E</b> y <b>P</b>: 
                   | <b>E</b>xposición al contagio y la <b>P</b>robalidad de contagio.
-                p Dentro de la fórmula este factor es el único valor que <b>nosotros podemos cambiar </b>, y <b>el mejor escenario es mantener el valor lo más cercano a 1</b>
+                p Dentro de la fórmula este factor es el único valor que <b>nosotros podemos cambiar </b>, un <b> buen escenario es mantener el valor lo más cercano a 1</b>
                 h4 ¿Cómo lo hacemos?
                 p
                   | Pues exponiendote poco, quedandote en casa, reduciendo la probabilidad de contagio lavandote 
@@ -95,7 +95,7 @@
                 thead
                   tr.text-center
                     th Fecha
-                    th Casos Confirmados
+                    th Casos Confirmados (*)
                     th Factor problemático
                 tbody
                   tr.text-center(v-for="people in peopleInfected")
@@ -104,8 +104,8 @@
                     td {{ people.problem_factor }}
             p.text-center
               small
-                | Referencia: Wikipedia, 
-                a(href="https://es.wikipedia.org/wi-ki/Pandemia_de_enfermedad_por_coronavirus_de_2020_en_Per%C3%BA", target="_blank") "Pandemia de enfermedad por coronavirus de 2020 en Perú"
+                | (*) Cantidad de casos confirmados obtenido del twitter oficial del 
+                a(href="https://twitter.com/Minsa_Peru", target="_blank") Ministerio de Salud del Perú
         // @end Cases
       // @end Main
     // @start Footer
