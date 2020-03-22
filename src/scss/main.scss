@@ -1,11 +1,13 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900&display=swap");
 
 html,
 body {
   height: 100%;
+  font-family: "Montserrat", sans-serif;
 }
 
-h1 {
+.t1 {
   @include media-breakpoint-down(md) {
     font-size: 2rem;
   }
@@ -17,24 +19,48 @@ h1 {
   grid-template-rows: 1fr auto;
 }
 
+.section-results {
+  background-color: #eeeeee;
+}
+
 .footer {
   grid-row-start: 2;
   grid-row-end: 3;
 }
 
 .box-result {
-  padding: 1rem;
+  --box-result-total-size: 3rem;
+  --box-result-label-size: 0.8rem;
+  position: relative;
+  padding: 1rem 1rem 2rem 1rem;
+  max-width: 300px;
   border: 1px solid #000;
   text-align: center;
+  border-radius: 0.5rem;
+  background: #eeeeee;
+  box-shadow: 20px 20px 60px #cacaca;
 
   &__total {
-    font-size: 3rem;
-    line-height: 3rem;
+    font-size: var(--box-result-total-size);
+    line-height: var(--box-result-total-size);
   }
 
   &__label {
-    font-size: 0.8rem;
-    line-height: 0.8rem;
+    font-size: var(--box-result-label-size);
+    line-height: var(--box-result-label-size) + 0.5;
+  }
+
+  &__factor {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    background-color: #000;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    color: #fff;
+    font-size: 0.7rem;
   }
 
   &__avatar {
@@ -42,5 +68,9 @@ h1 {
       max-width: 150px;
       margin: 0 auto;
     }
+  }
+
+  &--small {
+    --box-result-total-size: 2rem;
   }
 }

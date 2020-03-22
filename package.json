@@ -10,9 +10,11 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
+    "apexcharts": "^3.17.0",
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
     "vue": "^2.5.11",
+    "vue-apexcharts": "^1.5.2",
     "vue-scrollto": "^2.17.1"
   },
   "browserslist": [
