@@ -9,7 +9,7 @@
         // @start Calculator
         section.section-calculator.py-5
           .container
-            h1.t1.font-weight-bold.text-center.mb-4 ¿Cuantos casos por Coranovirus posiblemente habrá mañana?
+            h1.t1.font-weight-bold.text-center.mb-4 ¿Cuántos casos de Coronavirus posiblemente habrá mañana?
             // @start Form
             form.mb-4(@submit.prevent="calculate")
               .row.justify-content-center
@@ -77,18 +77,18 @@
                 p
                   | Pues exponiendote poco, quedandote en casa, reduciendo la probabilidad de contagio lavandote 
                   | las manos, tosiendo cubriendote con el antebrazo, acatar las medidas tomadas por tu país.
-                h4 ¿Como se ha hecho el cálculo?
+                h4 ¿Cómo se ha hecho el cálculo?
                 p
                   | Este calculador se hizo a base de las conclusiones matemáticas ofrecidas por Damian del canal <a href="https://www.youtube.com/channel/UCa6V1UVOXN4wDm7RDQDoa6g" target="_blank">El Traductor de Ingeniería</a>, 
                   | a través de su video <a href="https://youtu.be/-PUT0hZiZEw" target="_blank">"Te Explico POR QUÉ estoy PREOCUPADO | [COVID-19]"</a>
               .col-lg-6
                 cc-infected-line-bar.mt-4(:people-infected="peopleInfected")
-                h3.text-center No generemos pánico, generemos conciencia
+                h3.text-center No generemos pánico, generemos conciencia.
         // @end Results
         // @start Cases
         section
           .container.py-5
-            h2.t1.font-weight-bold.text-center.mb-4 Casos Confirmados en Perú
+            h2.t1.font-weight-bold.text-center.mb-4 Casos confirmados en el Perú
             cc-infected-cases-line-bar(:people-infected="peopleInfected")
             .table-responsive
               table.table

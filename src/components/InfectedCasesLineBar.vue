@@ -34,7 +34,7 @@ export default {
           curve: 'straight'
         },
         title: {
-          text: '¿Cuanto casos confirmados vamos en Perú hasta la fecha?',
+          text: '¿Cuántos casos confirmados hay en el Perú hasta la fecha?',
           align: 'left'
         },
         grid: {
