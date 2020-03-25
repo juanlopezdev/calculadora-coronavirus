@@ -106,6 +106,8 @@
               small
                 | (*) Cantidad de casos confirmados obtenido del twitter oficial del 
                 a(href="https://twitter.com/Minsa_Peru", target="_blank") Ministerio de Salud del Perú
+                br
+                | (Actualizado al 25/03/2020 16:20:00)
         // @end Cases
       // @end Main
     // @start Footer

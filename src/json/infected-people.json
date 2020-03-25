@@ -142,5 +142,21 @@
     "state": 1,
     "date_label": "23/03/2020",
     "date": "2020-03-23"
+  },
+  {
+    "id": 19,
+    "total": 416,
+    "problem_factor": 1.05316455,
+    "state": 1,
+    "date_label": "24/03/2020",
+    "date": "2020-03-24"
+  },
+  {
+    "id": 20,
+    "total": 480,
+    "problem_factor": 1.15384615,
+    "state": 1,
+    "date_label": "25/03/2020",
+    "date": "2020-03-25"
   }
 ]
