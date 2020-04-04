@@ -6,6 +6,7 @@
       // @end Header
       // @start Main
       main
+        small.px-3.py-1.d-block.text-right Actualizado al 03/04/2020 22:55:00
         // @start Calculator
         section.section-calculator.py-5
           .container
@@ -106,8 +107,6 @@
               small
                 | (*) Cantidad de casos confirmados obtenido del twitter oficial del 
                 a(href="https://twitter.com/Minsa_Peru", target="_blank") Ministerio de Salud del Perú
-                br
-                | (Actualizado al 02/04/2020 21:21:00)
         // @end Cases
       // @end Main
     // @start Footer
