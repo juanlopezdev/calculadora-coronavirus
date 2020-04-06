@@ -6,7 +6,7 @@
       // @end Header
       // @start Main
       main
-        small.px-3.py-1.d-block.text-right Actualizado al 04/04/2020 23:05:00
+        small.px-3.py-1.d-block.text-right Actualizado al 05/04/2020 18:23:00
         // @start Calculator
         section.section-calculator.py-5
           .container
@@ -40,6 +40,13 @@
                         small.form-text.text-muted Personas contagiadas por COVID-19
                   button.btn.btn-success.btn-block(type="submit") Calcular
             // @end Form
+            .box-social-sharing.text-center
+              p 
+                | Hagamos que más personas tomen conciencia,
+                br
+                b comparte este sitio web 
+                | por 
+              cc-buttons-social-sharing
         // @end Calculator
         // @start Results
         section#results.section-results.py-5(v-show="showTotalTomorrow")
@@ -119,12 +126,13 @@ import CcFooter from '@/components/layout/Footer.vue'
 import CcHeader from '@/components/layout/Header.vue'
 import CcInfectedLineBar from '@/components/InfectedLineBar.vue'
 import CcInfectedCasesLineBar from '@/components/InfectedCasesLineBar.vue'
+import CcButtonsSocialSharing from '@/components/ButtonsSocialSharing.vue'
 
 import peopleInfected from '@/json/infected-people.json'
 
 export default {
   name: "App",
-  components: { CcFooter, CcHeader, CcInfectedLineBar, CcInfectedCasesLineBar},
+  components: { CcFooter, CcHeader, CcInfectedLineBar, CcInfectedCasesLineBar, CcButtonsSocialSharing},
   data() {
     return {
       peopleInfected: peopleInfected,

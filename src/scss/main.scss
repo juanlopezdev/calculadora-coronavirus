@@ -74,3 +74,46 @@ body {
     --box-result-total-size: 2rem;
   }
 }
+
+.btn-social {
+  color: #fff;
+  font-size: 12px;
+  i {
+    margin-right: 0.5rem;
+  }
+
+  &--facebook {
+    background-color: #4267b2;
+    &:hover {
+      background-color: #3a5a9b;
+    }
+  }
+  &--twitter {
+    background-color: #1da1f2;
+    &:hover {
+      background-color: #1898e7;
+    }
+  }
+  &--linkedin {
+    background-color: #0077b5;
+    &:hover {
+      background-color: #0073b0;
+    }
+  }
+  &--whatsapp {
+    background-color: #1bd741;
+    &:hover {
+      background-color: #19c43b;
+    }
+  }
+  &--skype {
+    background-color: #00afee;
+    &:hover {
+      background-color: #07a4dd;
+    }
+  }
+
+  &:hover {
+    color: #fff;
+  }
+}
