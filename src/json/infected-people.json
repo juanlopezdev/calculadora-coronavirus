@@ -262,5 +262,29 @@
     "state": 1,
     "date_label": "07/04/2020",
     "date": "2020-04-07"
+  },
+  {
+    "id": 34,
+    "total": 4342,
+    "problem_factor": 1.46987136,
+    "state": 1,
+    "date_label": "08/04/2020",
+    "date": "2020-04-08"
+  },
+  {
+    "id": 35,
+    "total": 5256,
+    "problem_factor": 1.21050207,
+    "state": 1,
+    "date_label": "09/04/2020",
+    "date": "2020-04-09"
+  },
+  {
+    "id": 36,
+    "total": 5897,
+    "problem_factor": 1.12195586,
+    "state": 1,
+    "date_label": "10/04/2020",
+    "date": "2020-04-10"
   }
 ]
