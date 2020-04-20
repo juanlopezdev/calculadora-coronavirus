@@ -6,7 +6,7 @@
       // @end Header
       // @start Main
       main
-        small.px-3.py-1.d-block.text-right Actualizado al 14/04/2020 23:56:00
+        small.px-3.py-1.d-block.text-right Actualizado al 19/04/2020 23:43:00
         // @start Calculator
         section.section-calculator.py-5
           .container
