@@ -318,5 +318,45 @@
     "state": 1,
     "date_label": "14/04/2020",
     "date": "2020-04-14"
+  },
+  {
+    "id": 41,
+    "total": 11475,
+    "problem_factor": 1.11375328,
+    "state": 1,
+    "date_label": "15/04/2020",
+    "date": "2020-04-15"
+  },
+  {
+    "id": 42,
+    "total": 12491,
+    "problem_factor": 1.08854031,
+    "state": 1,
+    "date_label": "16/04/2020",
+    "date": "2020-04-16"
+  },
+  {
+    "id": 43,
+    "total": 13489,
+    "problem_factor": 1.07989753,
+    "state": 1,
+    "date_label": "17/04/2020",
+    "date": "2020-04-17"
+  },
+  {
+    "id": 44,
+    "total": 14420,
+    "problem_factor": 1.06901920,
+    "state": 1,
+    "date_label": "18/04/2020",
+    "date": "2020-04-18"
+  },
+  {
+    "id": 45,
+    "total": 15628,
+    "problem_factor": 1.08377254,
+    "state": 1,
+    "date_label": "19/04/2020",
+    "date": "2020-04-19"
   }
 ]
