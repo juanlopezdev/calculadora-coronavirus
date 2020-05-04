@@ -358,5 +358,118 @@
     "state": 1,
     "date_label": "19/04/2020",
     "date": "2020-04-19"
+  },
+
+  {
+    "id": 46,
+    "total": 16325,
+    "problem_factor": 1.04459944,
+    "state": 1,
+    "date_label": "20/04/2020",
+    "date": "2020-04-20"
+  },
+  {
+    "id": 47,
+    "total": 17837,
+    "problem_factor": 1.09261868,
+    "state": 1,
+    "date_label": "21/04/2020",
+    "date": "2020-04-21"
+  },
+  {
+    "id": 48,
+    "total": 19250,
+    "problem_factor": 1.07921735,
+    "state": 1,
+    "date_label": "22/04/2020",
+    "date": "2020-04-22"
+  },
+  {
+    "id": 49,
+    "total": 20914,
+    "problem_factor": 1.08644156,
+    "state": 1,
+    "date_label": "23/04/2020",
+    "date": "2020-04-23"
+  },
+  {
+    "id": 50,
+    "total": 21648,
+    "problem_factor": 1.03509611,
+    "state": 1,
+    "date_label": "24/04/2020",
+    "date": "2020-04-24"
+  },
+  {
+    "id": 51,
+    "total": 25331,
+    "problem_factor": 1.17013119,
+    "state": 1,
+    "date_label": "25/04/2020",
+    "date": "2020-04-25"
+  },
+  {
+    "id": 52,
+    "total": 27517,
+    "problem_factor": 1.08629742,
+    "state": 1,
+    "date_label": "26/04/2020",
+    "date": "2020-04-26"
+  },
+  {
+    "id": 53,
+    "total": 28699,
+    "problem_factor": 1.04295526,
+    "state": 1,
+    "date_label": "27/04/2020",
+    "date": "2020-04-27"
+  },
+  {
+    "id": 54,
+    "total": 31190,
+    "problem_factor": 1.08679745,
+    "state": 1,
+    "date_label": "28/04/2020",
+    "date": "2020-04-28"
+  },
+  {
+    "id": 55,
+    "total": 33931,
+    "problem_factor": 1.08788073,
+    "state": 1,
+    "date_label": "29/04/2020",
+    "date": "2020-04-29"
+  },
+  {
+    "id": 56,
+    "total": 36976,
+    "problem_factor": 1.08974094,
+    "state": 1,
+    "date_label": "30/04/2020",
+    "date": "2020-04-30"
+  },
+  {
+    "id": 57,
+    "total": 40459,
+    "problem_factor": 1.09419624,
+    "state": 1,
+    "date_label": "01/05/2020",
+    "date": "2020-05-01"
+  },
+  {
+    "id": 59,
+    "total": 42534,
+    "problem_factor": 1.05128649,
+    "state": 1,
+    "date_label": "02/05/2020",
+    "date": "2020-05-02"
+  },
+  {
+    "id": 59,
+    "total": 45928,
+    "problem_factor": 1.07979499,
+    "state": 1,
+    "date_label": "03/05/2020",
+    "date": "2020-05-03"
   }
 ]
